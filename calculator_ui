@@ -1,0 +1,37 @@
+import javax.swing.*;
+import java.awt.FlowLayout; 
+
+public class calculator_ui {
+	
+	JFrame frame = new JFrame("Calculator");
+	JPanel panel = new JPanel (new FlowLayout());
+	
+	JTextArea text = new JTextArea(1,20);
+	JButton button1 = new JButton("1");
+	JButton button2 = new JButton("2");
+	JButton button3 = new JButton("3");
+	JButton button4 = new JButton("4");
+	JButton button5 = new JButton("5");
+	JButton button6 = new JButton("6");
+	JButton button7 = new JButton("7");
+	JButton button8 = new JButton("8");
+	JButton button9 = new JButton("9");
+	JButton button0 = new JButton("0");
+	
+	JButton buttonadd = new JButton("+");
+	JButton buttonsub = new JButton("-");
+	JButton buttondiv = new JButton("/");
+	JButton buttonequal = new JButton("=");
+	
+	
+	
+	public void ui ()
+	{
+		frame.setVisible(true);
+		frame.setSize(350,300);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		frame.add(panel);
+	}
+
+}
