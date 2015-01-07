@@ -24,7 +24,7 @@ public class calculator_ui {
 	JButton buttonequal = new JButton("=");
 	
 	
-	
+	// This will allow the Frame to be visible 
 	public void ui ()
 	{
 		frame.setVisible(true);
